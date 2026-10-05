@@ -17,9 +17,10 @@
 |------|-----------|-------------|
 | 4 | First 3 Readiness Checks with existing clients | Readouts delivered. First Blueprint/Foundations proposals |
 | 4 | Website | Hero + ladder + `/ai-ready` scorecard + Qualifier chat live ([08](08-website-changes.md)) |
-| 5 | Outbound | Warmed domains go live. Cohort 1: 50 Priority + 50 Standard accounts |
+| 5 | Outbound | Warmed domains go live. Cohort 1: 100 accounts, split 50 Track A-US (English) / 50 Track A-LATAM (Spanish) |
 | 5–6 | Blueprint kit | Suitability Matrix spreadsheet, intent-clustering notebook, Blueprint deck template |
 | 6 | Process mapping kit | Process Record template (Sheet/YAML), AI + human renderers, test-set template |
+| 5–6 | US case study | Anonymized write-up of the US fraud-detection fintech account (the main proof for Track A-US) |
 | 6 | Pricing experiment E1 | Shadow outcome billing on one existing LOB |
 | 7 | Webinar #1 | "What to automate and what to keep human in fintech CX" |
 | 8 | Agents v2 | Meeting Prep + CRM Scribe + Proposal Drafter. Auto-send for Standard accounts |
@@ -69,5 +70,6 @@
 2. **Pick the analyst** who'll run the first Readiness Checks.
 3. **Pick the AI builder**: an in-house hire or a contractor.
 4. **Choose the outcome-pricing pilot client** and LOB for experiment E1.
-5. **Confirm the proof points** in [agents/proof-points.md](agents/proof-points.md), including permission to name clients.
-6. **Replace the cost assumptions** in [04-pricing.md §5](04-pricing.md#5-why-outcome-pricing-doesnt-cannibalize-us) with actuals.
+5. **Confirm English capacity for Track A-US**: how many C1+ English agents we can staff within 30 days, and whether US healthtech (HIPAA/BAA) is in or out for now.
+6. **Confirm the proof points** in [agents/proof-points.md](agents/proof-points.md), including permission to name clients.
+7. **Replace the cost assumptions** in [04-pricing.md §5](04-pricing.md#5-why-outcome-pricing-doesnt-cannibalize-us) with actuals.

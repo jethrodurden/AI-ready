@@ -15,6 +15,7 @@
 | PP7 | We already run AI in our own operation: an AI recruiting copilot (Romi) and AI-assisted QA rubrics. | Ya operamos IA en nuestra propia operación: un copiloto de reclutamiento con IA (Romi) y QA asistido por IA. | — |
 | PP8 | Founder spent ~10 years buying CX and managing BPOs at Stripe, Uber, Kavak and Nuvocargo. | El fundador pasó ~10 años comprando CX y gestionando BPOs en Stripe, Uber, Kavak y Nuvocargo. | — |
 | PP9 | Experience on Zendesk, Salesforce, Intercom, Kustomer, HubSpot and more. | Experiencia en Zendesk, Salesforce, Intercom, Kustomer, HubSpot y más. | — |
+| PP10 | We run back-office and investigations for a US fintech in fraud detection. | Operamos back-office e investigaciones para una fintech de EE. UU. de detección de fraude. | anonymized (key for Track A-US) |
 
 **To add as soon as available:** first Readiness Check results (anonymized), first AI containment
 result, first outcome-pricing case.

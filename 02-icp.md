@@ -5,24 +5,46 @@
 The new ICP is built around **readiness pain**, not industry alone. The best target has enough contact
 volume for AI to matter, a CRM or helpdesk in place, and visible pressure to automate.
 
-### Tier A ICP (prioritize: closest to our proof)
+### Tier A ICP (prioritize): two tracks with equal priority
 
-| Attribute | Criteria |
-|-----------|----------|
-| **Industry** | Fintech (BNPL, lending, wallets, neobanks, payments, investing), insurtech, healthtech, memberships and subscriptions, marketplaces, telecom/ISP |
-| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina. Second: US companies serving Spanish-speaking customers |
-| **Company size** | 100–2,000 employees (sweet spot 150–800) |
-| **Contact volume** | ≥ 10,000 customer contacts per month (≈ 10+ support agents, in-house or outsourced) |
-| **Channels** | WhatsApp and chat heavy (the best automation surface in LATAM), plus voice |
-| **Systems** | Uses a helpdesk/CRM: Zendesk, Intercom, Kustomer, Freshdesk, HubSpot Service Hub, Salesforce Service Cloud, Gladly |
-| **Stage** | Series B+ or profitable, funded in the last 18 months, or under margin pressure |
-| **Trigger** | See buying signals below. At least one signal is required to enter a sequence |
+Tier A has two tracks. Both get the same research depth, the same sequence quality, and Beto's
+personal LinkedIn touches. **Track A-US is the growth bet:** US companies buying in English pay higher
+rates, have bigger budgets for AI projects, and are in the same time zone as Mexico City (CDMX = US Central).
+
+| Attribute | Track A-LATAM (Spanish) | Track A-US (English) |
+|-----------|-------------------------|----------------------|
+| **Industry** | Fintech (BNPL, lending, wallets, neobanks, payments, investing), insurtech, healthtech, memberships and subscriptions, marketplaces, telecom/ISP | Same, prioritizing US fintech and lending, insurtech, subscriptions/memberships, marketplaces, and B2C SaaS. Healthtech only if we can sign a BAA (HIPAA). See the note below |
+| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina | United States, prioritizing Central and Eastern time zones (Texas, Florida, Illinois, Georgia, New York, North Carolina), then the West Coast |
+| **Language** | Spanish (es-MX), with English for bilingual programs | **English-first**. Spanish is an add-on for US companies with Hispanic customers |
+| **Company size** | 100–2,000 employees (sweet spot 150–800) | 100–1,500 employees (sweet spot 150–600). Big enough for volume, small enough that Beto is a credible counterpart |
+| **Contact volume** | ≥ 10,000 customer contacts per month (≈ 10+ support agents) | ≥ 8,000 contacts per month. US contacts have higher AHT and value, so a lower volume still justifies AI |
+| **Channels** | WhatsApp and chat heavy (the best automation surface in LATAM), plus voice | Chat, email, and **voice** (voice is still large in US support), plus SMS. WhatsApp is rarely relevant |
+| **Systems** | Zendesk, Intercom, Kustomer, Freshdesk, HubSpot Service Hub, Salesforce Service Cloud, Gladly | Same, with more Salesforce, Gladly, and Kustomer. Native AI (Fin, Zendesk AI, Agentforce) is more likely to be licensed and underused, which is our strongest hook |
+| **Stage** | Series B+ or profitable, funded in the last 18 months, or under margin pressure | Same. Add "post-layoff / efficiency mandate", a common US trigger for AI-plus-nearshore conversations |
+| **Trigger** | At least one buying signal is required to enter a sequence | Same |
+
+**Why US buyers will listen:** we pitch "AI readiness plus a nearshore human layer in your time zone,"
+not "cheap offshore seats." Tiers 0–2 (Readiness Check, Blueprint, Build) are delivered remotely and
+don't depend on agent language at all, so they're the natural entry point for US accounts. Tier 3 adds
+English-speaking agents from Mexico City at nearshore rates, at a premium over Spanish (see
+[04-pricing.md](04-pricing.md)).
+
+**US proof we already have:** a US fraud-detection fintech client (back-office and investigations).
+Turn it into an anonymized case study first, because it's the most relevant reference for Track A-US.
+
+> **Before scaling Track A-US, confirm two things:**
+> 1. **English agent capacity:** how many C1+ English agents we have today and how fast we can hire
+>    them. Outbound should only promise English human-layer capacity we can staff within 30 days.
+> 2. **Compliance by industry:** PCI DSS already covers fintech. US healthtech needs HIPAA readiness
+>    and a BAA. SOC 2 (on the 2026 roadmap) matters more to US buyers than to LATAM buyers, so push it
+>    forward if Track A-US starts converting.
 
 ### Tier B ICP (opportunistic)
 
-- E-commerce and retail with high WISMO ("where is my order") volume, only if they're in LATAM and
-  WhatsApp-heavy. **Drop the US fashion/cosmetics list**: we have no proof there and they rarely
-  outsource to Mexico.
+- E-commerce and retail with high WISMO ("where is my order") volume, only if they're WhatsApp-heavy
+  (LATAM) or above about 20k contacts a month (US). **Drop the current US fashion/cosmetics list.** The
+  problem with it was the industry, not the country: those brands are small, seasonal, and we have no
+  retail proof yet.
 - Traditional companies (banks, insurers, utilities) that are "digitally transforming". Long cycles,
   so pursue them only through referral.
 
@@ -82,9 +104,9 @@ angles). Bring P3 and P4 in from Tier 1 onward.
 | Dimension | Points | Scoring |
 |-----------|--------|---------|
 | Industry match | 20 | Tier A industry 20 · adjacent 10 · other 0 |
-| Geography | 10 | MX 10 · LATAM 8 · US with Hispanic customers 6 · other 0 |
+| Geography & language | 10 | US English-first 10 · MX 10 · US with Spanish-speaking customers 9 · rest of LATAM 8 · Canada/UK 4 · other 0 |
 | Size | 10 | 150–800 employees 10 · 100–150 or 800–2,000: 6 · other 2 |
-| Estimated contact volume | 15 | ≥ 50k/mo 15 · 10–50k 10 · 5–10k 5 · < 5k 0 |
+| Estimated contact volume | 15 | ≥ 50k/mo 15 · 10–50k 10 (US: 8–50k) · 5–10k 5 · < 5k 0 |
 | CRM/helpdesk in stack | 10 | Known helpdesk 10 · unknown 3 |
 | Native AI licensed but underused | 10 | Yes 10 · unclear 5 · no 0 |
 | KB health (outside-in) | 10 | Stale or none 10 · partial 5 · excellent 2 (less pain) |
@@ -96,7 +118,7 @@ content only).
 
 ## 5. Apollo search recipes
 
-**Account search (Tier A, Mexico/LATAM):**
+**Account search (Track A-LATAM):**
 - Locations: Mexico, Colombia, Chile, Peru, Argentina
 - Employees: 100–2,000
 - Industries/keywords: financial services, fintech, BNPL, lending, payments, insurance, hospital &
@@ -106,16 +128,34 @@ content only).
 - Job postings: contains "atención a clientes" OR "customer support" OR "customer experience" OR "CX"
 - Exclude industries: media, publishing, staffing & recruiting, research
 
+**Account search (Track A-US):**
+- Locations: United States, starting with TX, FL, IL, GA, NY, NC, AZ, CO (Central/Eastern time zones), then CA and WA
+- Employees: 100–1,500
+- Industries/keywords: financial services, fintech, lending, payments, insurance, insurtech,
+  consumer services, subscription, membership, marketplace, internet, computer software (B2C SaaS),
+  telecommunications. Add hospital & health care only once HIPAA/BAA is confirmed
+- Technologies (any): Zendesk, Intercom, Kustomer, Gladly, Salesforce Service Cloud, Freshdesk,
+  HubSpot Service Hub, Five9, Talkdesk, Genesys, Aircall (voice-heavy signal), Twilio
+- Job postings: contains "customer support" OR "customer service representative" OR "customer
+  experience" OR "support specialist" OR "CX operations"
+- Extra US signals: job posts for support roles in high-cost cities, recent layoffs or an "efficiency"
+  announcement, an existing offshore BPO (a switching opportunity)
+- Exclude: the same exclusions as LATAM, plus companies that require US-only/onshore support by
+  regulation (some government, defense, and certain banking programs)
+
 **People search (per account):**
 - Titles (P1): `VP Customer Experience`, `Head of Customer Experience`, `Director de Experiencia`,
   `Director de Operaciones`, `COO`, `Head of Customer Support`, `Gerente de Atención a Clientes`
+- Titles (P1, US additions): `VP Customer Support`, `VP Customer Success` (in B2C), `Director of
+  Customer Operations`, `Senior Director, Customer Care`, `Head of Member Experience`
 - Titles (P2): `CX Operations`, `Support Operations`, `Knowledge Manager`, `Quality Manager`,
   `Gerente de Calidad`, `CX Automation`, `Conversational AI`
 - Seniority: Director, VP, Head, Manager (P2)
 - Email status: Verified only
 
-**Account list sizing target:** 300 Tier A accounts × 2–3 contacts = about 750 contacts, worked in
-monthly cohorts of 75–100 accounts.
+**Account list sizing target:** 300 Tier A accounts (150 A-US + 150 A-LATAM) × 2–3 contacts = about
+750 contacts, worked in monthly cohorts of 75–100 accounts split 50/50 between the tracks. Shift the
+split toward whichever track converts better after the first two cohorts.
 
 ## 6. Existing clients count as ICP zero
 

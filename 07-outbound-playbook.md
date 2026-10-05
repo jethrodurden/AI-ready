@@ -31,6 +31,9 @@ inboxes. Run these checks first:
 | 10 | LinkedIn | Beto | Short note with a finding or post (if connected) |
 | 16 | Email E4 | SDR agent | Break-up / "want the findings anyway?" |
 
+**Track A-US (English):** same cadence in English, with two changes. Replace any WhatsApp step with a
+phone call or voicemail, and lead the proof with the US fintech account (PP10) plus "same time zone as Central Time."
+
 Standard accounts (fit 50–69) get emails E1–E4 only. The P2 champion at the same account gets a
 parallel sequence that starts 3 days later, with the champion angle.
 
