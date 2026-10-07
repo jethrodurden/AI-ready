@@ -4,7 +4,7 @@
 | Week | Workstream | Deliverable | Owner |
 |------|-----------|-------------|-------|
 | 1 | **Existing clients** | Beto sends the personal Readiness Check offer to all 7 current clients ([07 §4](07-outbound-playbook.md#4-existing-client-expansion-play-start-here-week-1)) | Beto |
-| 1 | Deliverability | Seed-test the current domain; buy 2–3 sending domains; SPF/DKIM/DMARC; start warm-up | Ops |
+| 1 | Deliverability | Buy 2–3 sending domains; SPF/DKIM/DMARC; start warm-up (current emails are delivering, so this protects future volume) | Ops |
 | 1 | Pause | **Stop the current sequences** (the "scaling headcount" copy) | Ops |
 | 1–2 | Productize Tier 0 | Scorecard questionnaire (Google Form or HubSpot form), analyst checklist, readout template (deck) | Beto + 1 analyst |
 | 2 | HubSpot | Pipelines A/B, custom properties, lead scoring, the first 3 workflows | Ops |

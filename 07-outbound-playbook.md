@@ -1,17 +1,21 @@
 # 07 — Outbound & Inbound Playbook
 
-## 1. Deliverability: fix before sending anything
+## 1. Deliverability: protect it before scaling volume
 
-Zero replies (not even out-of-office replies or unsubscribes) suggests the emails may not be reaching
-inboxes. Run these checks first:
+The current emails **are being delivered**: we get out-of-office auto-replies, and mail servers generally
+don't send those for messages they filtered as spam. So the zero replies come from the message, the
+targeting, and the ask (see [01 §1](01-positioning.md#1-why-the-current-outbound-motion-got-zero-replies)),
+not from spam filtering. The new plan sends far more email (about 250 new contacts a month across two languages),
+so keep inbox placement healthy as volume grows:
 
-- [ ] **Test placement now:** send the old email to 10 seed inboxes (Gmail, Outlook, Google Workspace,
-      M365) using a tool like GlockApps or Mail-Tester. If more than 30% land in spam, fixing that is step one.
+- [ ] **Use the out-of-office replies.** They often name a colleague or a return date. Log both in
+      HubSpot. A named colleague is a warm referral, and the return date is when to follow up.
 - [ ] **Don't cold-send from `evolvecx.io`.** Buy 2–3 secondary domains (e.g., `evolvecx-ai.com`,
       `getevolvecx.com`, `evolvecxhq.com`) that redirect to evolvecx.io. Use 2 inboxes per domain
       (e.g., `beto@`, `alberto@`).
 - [ ] SPF, DKIM, and DMARC (`p=none` to start) on every sending domain. Custom tracking domain in Apollo.
-- [ ] **Warm up** each inbox for 3–4 weeks (Apollo warm-up or a dedicated tool) before sequencing.
+- [ ] **Warm up** each new inbox for 3–4 weeks (Apollo warm-up or a dedicated tool) before sequencing.
+      Until then, the current inbox can keep sending at its current volume with the new copy.
 - [ ] **Limits:** ≤ 40 cold emails/day per inbox. Plain text. **No links or images in the first touch.**
       Turn off open tracking for first touches (it adds a tracking pixel).
 - [ ] Verify every email (Apollo "verified" only, plus a secondary verification on catch-all domains).

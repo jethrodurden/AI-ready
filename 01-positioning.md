@@ -4,7 +4,8 @@
 
 Source: the `Outbound Lead List` sheet (Accounts, Contacts, Emails, Retail tabs). About 175 first-touch
 emails were logged from Aug 13 onward and none got a reply. Zero replies in 175 sends is rarely just bad
-luck. Usually several things are failing together:
+luck. Out-of-office auto-replies confirm the emails reach inboxes, so the problem is what they say
+and who they go to:
 
 | Problem | Evidence in the sheet | Why it kills replies |
 |---------|-----------------------|----------------------|
@@ -13,7 +14,6 @@ luck. Usually several things are failing together:
 | **ICP drift** | It moved from fintech to media and then to US fashion/cosmetics retail (Shopify, VTEX) | The targets were small, seasonal fashion and cosmetics brands, and we have no retail proof yet. E-commerce is now in Tier A, but only for larger operators (see [02](02-icp.md)) |
 | **Big ask, nothing given** | Every first touch asks for 30 minutes and includes a Calendly link | We ask a stranger for 30 minutes and give them nothing first. Links in cold first touches also hurt deliverability |
 | **Proof that doesn't land** | "20 agents in 4 days", "30% MoM growth absorbed" | Those are impressive *staffing* metrics, and staffing isn't what buyers are shopping for now |
-| **Probable deliverability problem** | Sent through Gmail threads, likely from the primary domain, with links | With zero replies (not even "unsubscribe" or out-of-office replies) it's likely that a large share went to spam. **Check this first.** See [07 §1](07-outbound-playbook.md#1-deliverability-fix-before-sending-anything) |
 | **Single channel** | Email only | No LinkedIn touch, no phone, no content, so we have no familiarity with the buyer before we ask |
 
 **Lesson:** the copy isn't the only problem. Message, targeting, ask, and channel all need to change at

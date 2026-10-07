@@ -43,7 +43,7 @@ of agent we'd build for you, and a human (me) reviewed it."*
   classification (reply triage, tagging). Claude Opus 5.5 for proposals and readout drafts.
 - **Data:** Apollo API (organization/people search, enrichment, add-to-sequence) and HubSpot API
   (CRM objects, notes, tasks, workflows, meetings). Web fetching for help centers and websites.
-- **Channels:** Apollo sequences on **secondary sending domains** (see [07 §1](07-outbound-playbook.md#1-deliverability-fix-before-sending-anything)).
+- **Channels:** Apollo sequences on **secondary sending domains** (see [07 §1](07-outbound-playbook.md#1-deliverability-protect-it-before-scaling-volume)).
   WhatsApp Business API for opted-in leads only. Web chat widget on evolvecx.io.
 - **Logs:** every agent writes a timeline note to HubSpot, so you can see what it did and why.
 
