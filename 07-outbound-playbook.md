@@ -32,7 +32,7 @@ inboxes. Run these checks first:
 | 16 | Email E4 | SDR agent | Break-up / "want the findings anyway?" |
 
 **Track A-US (English):** same cadence in English, with two changes. Replace any WhatsApp step with a
-phone call or voicemail, and lead the proof with the US fintech account (PP10) plus "same time zone as Central Time."
+phone call or voicemail, and lead the proof with the US fintech account (PP10) plus "24/7 coverage in any US time zone." Overnight and weekend coverage is a strong hook for US teams that only staff business hours
 
 Standard accounts (fit 50–69) get emails E1–E4 only. The P2 champion at the same account gets a
 parallel sequence that starts 3 days later, with the champion angle.

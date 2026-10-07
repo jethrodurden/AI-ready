@@ -9,12 +9,12 @@ volume for AI to matter, a CRM or helpdesk in place, and visible pressure to aut
 
 Tier A has two tracks. Both get the same research depth, the same sequence quality, and Beto's
 personal LinkedIn touches. **Track A-US is the growth bet:** US companies buying in English pay higher
-rates, have bigger budgets for AI projects, and are in the same time zone as Mexico City (CDMX = US Central).
+rates, have bigger budgets for AI projects, and we can cover any US time zone because our Mexico City site operates 24/7.
 
 | Attribute | Track A-LATAM (Spanish) | Track A-US (English) |
 |-----------|-------------------------|----------------------|
 | **Industry** | Fintech (BNPL, lending, wallets, neobanks, payments, investing), insurtech, healthtech, memberships and subscriptions, marketplaces, telecom/ISP | Same, prioritizing US fintech and lending, insurtech, subscriptions/memberships, marketplaces, and B2C SaaS. Healthtech only if we can sign a BAA (HIPAA). See the note below |
-| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina | United States, prioritizing Central and Eastern time zones (Texas, Florida, Illinois, Georgia, New York, North Carolina), then the West Coast |
+| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina | All of the United States. Our site runs 24/7, so we can cover any time zone, including overnight and weekend coverage. Start with the largest fintech and insurtech hubs (New York, California, Texas, Florida, Illinois, Georgia) |
 | **Language** | Spanish (es-MX), with English for bilingual programs | **English-first**. Spanish is an add-on for US companies with Hispanic customers |
 | **Company size** | 100–2,000 employees (sweet spot 150–800) | 100–1,500 employees (sweet spot 150–600). Big enough for volume, small enough that Beto is a credible counterpart |
 | **Contact volume** | ≥ 10,000 customer contacts per month (≈ 10+ support agents) | ≥ 8,000 contacts per month. US contacts have higher AHT and value, so a lower volume still justifies AI |
@@ -23,7 +23,7 @@ rates, have bigger budgets for AI projects, and are in the same time zone as Mex
 | **Stage** | Series B+ or profitable, funded in the last 18 months, or under margin pressure | Same. Add "post-layoff / efficiency mandate", a common US trigger for AI-plus-nearshore conversations |
 | **Trigger** | At least one buying signal is required to enter a sequence | Same |
 
-**Why US buyers will listen:** we pitch "AI readiness plus a nearshore human layer in your time zone,"
+**Why US buyers will listen:** we pitch "AI readiness plus a nearshore human layer covering your hours, 24/7,"
 not "cheap offshore seats." Tiers 0–2 (Readiness Check, Blueprint, Build) are delivered remotely and
 don't depend on agent language at all, so they're the natural entry point for US accounts. Tier 3 adds
 English-speaking agents from Mexico City at nearshore rates, at a premium over Spanish (see
@@ -129,7 +129,7 @@ content only).
 - Exclude industries: media, publishing, staffing & recruiting, research
 
 **Account search (Track A-US):**
-- Locations: United States, starting with TX, FL, IL, GA, NY, NC, AZ, CO (Central/Eastern time zones), then CA and WA
+- Locations: United States, all states. Start with NY, CA, TX, FL, IL, GA, which have the most fintech and insurtech companies
 - Employees: 100–1,500
 - Industries/keywords: financial services, fintech, lending, payments, insurance, insurtech,
   consumer services, subscription, membership, marketplace, internet, computer software (B2C SaaS),
