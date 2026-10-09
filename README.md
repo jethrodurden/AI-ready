@@ -32,6 +32,15 @@ that run the top of our own funnel. **We use the same AI we sell.**
 | [Dual Process Mapping (AI-friendly + Human-friendly)](frameworks/dual-process-mapping.md) | Tier 2, process mapping that reduces hallucinations and trains humans |
 | [Outcome Definitions & Contract Guardrails](frameworks/outcome-definitions.md) | Tier 3, what counts as a billable "resolution" |
 
+### Readiness Check delivery kit
+
+| File | Use |
+|------|-----|
+| [kit/01-client-emails.md](kit/01-client-emails.md) | Readiness Check offers to current clients (parallel track) |
+| [kit/02-readiness-questionnaire.md](kit/02-readiness-questionnaire.md) | Form-ready questionnaire (EN/ES), mapped to the scorecard |
+| [kit/03-analyst-checklist.md](kit/03-analyst-checklist.md) | Running a check in 10 business days |
+| [kit/04-readout-template.md](kit/04-readout-template.md) | The 8-slide readout deck |
+
 ### Agent specs (for building our own sales agents)
 
 | Agent | Spec |
