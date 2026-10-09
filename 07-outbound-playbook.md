@@ -36,13 +36,11 @@ so keep inbox placement healthy as volume grows:
 | 1 | Email E1 | SDR agent → Beto approves | Hook finding + free offer, yes/no ask |
 | 2 | LinkedIn | Beto | Connection request (no pitch) |
 | 4 | Email E2 | SDR agent | The reframe: knowledge, not models |
-| 7 | Call | Beto / sales hire | 30-second voicemail referencing the finding (only if a direct number is available) |
 | 9 | Email E3 | SDR agent | Not everything should be automated, plus the scorecard link |
 | 10 | LinkedIn | Beto | Short note with a finding or post (if connected) |
 | 16 | Email E4 | SDR agent | Break-up / "want the findings anyway?" |
 
-**Track A-US (English):** same cadence in English, with two changes. Replace any WhatsApp step with a
-phone call or voicemail, and lead the proof with the US fintech account (PP10) plus "24/7 coverage in any US time zone." Overnight and weekend coverage is a strong hook for US teams that only staff business hours
+**Track A-US (English):** same cadence in English (email and LinkedIn only, no calls). Lead the proof with the US fintech account (PP10) plus "24/7 coverage in any US time zone." Overnight and weekend coverage is a strong hook for US teams that only staff business hours
 
 Standard accounts (fit 50–69) get emails E1–E4 only. The P2 champion at the same account gets a
 parallel sequence that starts 3 days later, with the champion angle.
