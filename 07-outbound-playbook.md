@@ -10,13 +10,19 @@ so keep inbox placement healthy as volume grows:
 
 - [ ] **Use the out-of-office replies.** They often name a colleague or a return date. Log both in
       HubSpot. A named colleague is a warm referral, and the return date is when to follow up.
-- [ ] **Don't cold-send from `evolvecx.io`.** Buy 2–3 secondary domains (e.g., `evolvecx-ai.com`,
-      `getevolvecx.com`, `evolvecxhq.com`) that redirect to evolvecx.io. Use 2 inboxes per domain
-      (e.g., `beto@`, `alberto@`).
-- [ ] SPF, DKIM, and DMARC (`p=none` to start) on every sending domain. Custom tracking domain in Apollo.
-- [ ] **Warm up** each new inbox for 3–4 weeks (Apollo warm-up or a dedicated tool) before sequencing.
-      Until then, the current inbox can keep sending at its current volume with the new copy.
-- [ ] **Limits:** ≤ 40 cold emails/day per inbox. Plain text. **No links or images in the first touch.**
+- [ ] **Keep sending from `evolvecx.io`. No new domains needed.** 250 new contacts a month × 4
+      emails is about 1,000 emails a month, or roughly 50 per business day. Two inboxes on
+      evolvecx.io (Beto's current one plus one more, e.g. `alberto@`) at ≤ 30 cold emails/day each
+      cover that. If you add a second inbox, warm it up for 2–3 weeks before it sends cold email.
+- [ ] **Confirm SPF, DKIM, and DMARC** on evolvecx.io (start DMARC at `p=none`), and set up a custom
+      tracking domain in Apollo.
+- [ ] **Watch the main domain's reputation**, because client and operations email depends on it too.
+      Set up Google Postmaster Tools for evolvecx.io and check it weekly. Keep the spam-complaint rate
+      under 0.1% and bounces under 2%.
+- [ ] **Only buy a separate sending domain if those signals slip:** reputation drops below "High" in
+      Postmaster Tools, complaints approach 0.3%, or out-of-office replies stop coming in. That would
+      keep cold email from hurting day-to-day email with clients.
+- [ ] **Limits:** ≤ 30 cold emails/day per inbox on the main domain. Plain text. **No links or images in the first touch.**
       Turn off open tracking for first touches (it adds a tracking pixel).
 - [ ] Verify every email (Apollo "verified" only, plus a secondary verification on catch-all domains).
 - [ ] **Send times:** Tue–Thu, 8:00–10:30 local time for the recipient. The Aug 13 batch went out at

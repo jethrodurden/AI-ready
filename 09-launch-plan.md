@@ -4,7 +4,7 @@
 | Week | Workstream | Deliverable | Owner |
 |------|-----------|-------------|-------|
 | 1 | **Existing clients** | Beto sends the personal Readiness Check offer to all 7 current clients ([07 §4](07-outbound-playbook.md#4-existing-client-expansion-play-start-here-week-1)) | Beto |
-| 1 | Deliverability | Buy 2–3 sending domains; SPF/DKIM/DMARC; start warm-up (current emails are delivering, so this protects future volume) | Ops |
+| 1 | Deliverability | Confirm SPF/DKIM/DMARC on evolvecx.io; set up Google Postmaster Tools; create and warm up a second inbox. No new domains | Ops |
 | 1 | Pause | **Stop the current sequences** (the "scaling headcount" copy) | Ops |
 | 1–2 | Productize Tier 0 | Scorecard questionnaire (Google Form or HubSpot form), analyst checklist, readout template (deck) | Beto + 1 analyst |
 | 2 | HubSpot | Pipelines A/B, custom properties, lead scoring, the first 3 workflows | Ops |
@@ -17,7 +17,7 @@
 |------|-----------|-------------|
 | 4 | First 3 Readiness Checks with existing clients | Readouts delivered. First Blueprint/Foundations proposals |
 | 4 | Website | Hero + ladder + `/ai-ready` scorecard + Qualifier chat live ([08](08-website-changes.md)) |
-| 5 | Outbound | Warmed domains go live. Cohort 1: 100 accounts, split 50 Track A-US (English) / 50 Track A-LATAM (Spanish) |
+| 5 | Outbound | Second inbox goes live alongside Beto's. Cohort 1: 100 accounts, split 50 Track A-US (English) / 50 Track A-LATAM (Spanish) |
 | 5–6 | Blueprint kit | Suitability Matrix spreadsheet, intent-clustering notebook, Blueprint deck template |
 | 6 | Process mapping kit | Process Record template (Sheet/YAML), AI + human renderers, test-set template |
 | 5–6 | US case study | Anonymized write-up of the US fraud-detection fintech account (the main proof for Track A-US) |

@@ -43,7 +43,7 @@ of agent we'd build for you, and a human (me) reviewed it."*
   classification (reply triage, tagging). Claude Opus 5.5 for proposals and readout drafts.
 - **Data:** Apollo API (organization/people search, enrichment, add-to-sequence) and HubSpot API
   (CRM objects, notes, tasks, workflows, meetings). Web fetching for help centers and websites.
-- **Channels:** Apollo sequences on **secondary sending domains** (see [07 §1](07-outbound-playbook.md#1-deliverability-protect-it-before-scaling-volume)).
+- **Channels:** Apollo sequences sent from evolvecx.io inboxes, within the volume limits in [07 §1](07-outbound-playbook.md#1-deliverability-protect-it-before-scaling-volume).
   WhatsApp Business API for opted-in leads only. Web chat widget on evolvecx.io.
 - **Logs:** every agent writes a timeline note to HubSpot, so you can see what it did and why.
 
@@ -118,7 +118,7 @@ of agent we'd build for you, and a human (me) reviewed it."*
 | **AI disclosure** | The concierge identifies itself as EvolveCX's AI assistant. Emails are sent under Beto's name, which he approves and owns |
 | **Consent & compliance** | Opt-out in every email. Honor it immediately, globally, in HubSpot. WhatsApp only after opt-in. Follow CAN-SPAM, Mexico's LFPDPPP, and the local rules of each target country. No scraping of personal data beyond business contact information |
 | **Pricing** | Agents can quote only published rate-card ranges. Discounts and custom terms go to a human |
-| **Volume caps** | ≤ 40 new contacts/day per sending inbox, sequence steps ≥ 3 business days apart |
+| **Volume caps** | ≤ 30 cold emails/day per sending inbox, sequence steps ≥ 3 business days apart |
 | **Escalation** | Existing clients, complaints, legal or security questions, and anything about a contract go to Beto immediately |
 | **Logging** | Every agent action is logged to the HubSpot timeline with the prompt version |
 
@@ -126,7 +126,7 @@ of agent we'd build for you, and a human (me) reviewed it."*
 
 | Week | Milestone |
 |------|-----------|
-| 1 | Deliverability setup (domains, warm-up). HubSpot properties and pipelines. Approved proof points list |
+| 1 | Deliverability check (SPF/DKIM/DMARC, Postmaster Tools, second inbox warm-up). HubSpot properties and pipelines. Approved proof points list |
 | 2 | Researcher live on 50 accounts. Manual review of briefs for quality |
 | 3 | SDR Writer live with 100% human approval. Reply Triage live |
 | 4 | Self-serve scorecard + Qualifier on the website. WhatsApp opt-in flow |
