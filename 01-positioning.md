@@ -4,16 +4,16 @@
 
 Source: the `Outbound Lead List` sheet (Accounts, Contacts, Emails, Retail tabs). About 175 first-touch
 emails were logged from Aug 13 onward and none got a reply. Zero replies in 175 sends is rarely just bad
-luck. Usually several things are failing together:
+luck. Out-of-office auto-replies confirm the emails reach inboxes, so the problem is what they say
+and who they go to:
 
 | Problem | Evidence in the sheet | Why it kills replies |
 |---------|-----------------------|----------------------|
 | **Commodity message** | Almost every subject is a variant of *"Scaling support without scaling headcount"* | Every BPO in LATAM sends this email. In 2026, a CX leader reads "headcount" and hears "legacy vendor." Their board is asking them "why aren't we using AI?", not "how do we hire faster?" |
 | **Wrong people** | Perplexity's CEO, TechCrunch's *event coordinator*, WIRED's *commerce production coordinator*, a FILA *category manager*, contacts scored `[Fit 2/10]` | Media and AI-native companies don't outsource support to a BPO, and coordinators can't buy. Our real buyer is the **Head of CX / VP Operations** at a company with a contact-center problem |
-| **ICP drift** | It moved from fintech to media and then to US fashion/cosmetics retail (Shopify, VTEX) | We have no proof points in retail. Our wins are BNPL, lending, fintech, healthtech, and memberships |
+| **ICP drift** | It moved from fintech to media and then to US fashion/cosmetics retail (Shopify, VTEX) | The targets were small, seasonal fashion and cosmetics brands, and we have no retail proof yet. E-commerce is now in Tier A, but only for larger operators (see [02](02-icp.md)) |
 | **Big ask, nothing given** | Every first touch asks for 30 minutes and includes a Calendly link | We ask a stranger for 30 minutes and give them nothing first. Links in cold first touches also hurt deliverability |
 | **Proof that doesn't land** | "20 agents in 4 days", "30% MoM growth absorbed" | Those are impressive *staffing* metrics, and staffing isn't what buyers are shopping for now |
-| **Probable deliverability problem** | Sent through Gmail threads, likely from the primary domain, with links | With zero replies (not even "unsubscribe" or out-of-office replies) it's likely that a large share went to spam. **Check this first.** See [07 §1](07-outbound-playbook.md#1-deliverability-fix-before-sending-anything) |
 | **Single channel** | Email only | No LinkedIn touch, no phone, no content, so we have no familiarity with the buyer before we ask |
 
 **Lesson:** the copy isn't the only problem. Message, targeting, ask, and channel all need to change at

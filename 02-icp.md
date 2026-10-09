@@ -9,21 +9,31 @@ volume for AI to matter, a CRM or helpdesk in place, and visible pressure to aut
 
 Tier A has two tracks. Both get the same research depth, the same sequence quality, and Beto's
 personal LinkedIn touches. **Track A-US is the growth bet:** US companies buying in English pay higher
-rates, have bigger budgets for AI projects, and are in the same time zone as Mexico City (CDMX = US Central).
+rates, have bigger budgets for AI projects, and we can cover any US time zone because our Mexico City site operates 24/7.
 
 | Attribute | Track A-LATAM (Spanish) | Track A-US (English) |
 |-----------|-------------------------|----------------------|
-| **Industry** | Fintech (BNPL, lending, wallets, neobanks, payments, investing), insurtech, healthtech, memberships and subscriptions, marketplaces, telecom/ISP | Same, prioritizing US fintech and lending, insurtech, subscriptions/memberships, marketplaces, and B2C SaaS. Healthtech only if we can sign a BAA (HIPAA). See the note below |
-| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina | United States, prioritizing Central and Eastern time zones (Texas, Florida, Illinois, Georgia, New York, North Carolina), then the West Coast |
+| **Industry** | Fintech (BNPL, lending, wallets, neobanks, payments, investing), insurtech, healthtech, memberships and subscriptions, marketplaces, telecom/ISP, **e-commerce** (see qualifier below) | Same, prioritizing US fintech and lending, insurtech, subscriptions/memberships, marketplaces, **e-commerce**, and B2C SaaS. Healthtech only if we can sign a BAA (HIPAA). See the note below |
+| **Geography** | Mexico first, then Colombia, Chile, Peru, Argentina | All of the United States. Our site runs 24/7, so we can cover any time zone, including overnight and weekend coverage. Start with the largest fintech and insurtech hubs (New York, California, Texas, Florida, Illinois, Georgia) |
 | **Language** | Spanish (es-MX), with English for bilingual programs | **English-first**. Spanish is an add-on for US companies with Hispanic customers |
 | **Company size** | 100–2,000 employees (sweet spot 150–800) | 100–1,500 employees (sweet spot 150–600). Big enough for volume, small enough that Beto is a credible counterpart |
 | **Contact volume** | ≥ 10,000 customer contacts per month (≈ 10+ support agents) | ≥ 8,000 contacts per month. US contacts have higher AHT and value, so a lower volume still justifies AI |
 | **Channels** | WhatsApp and chat heavy (the best automation surface in LATAM), plus voice | Chat, email, and **voice** (voice is still large in US support), plus SMS. WhatsApp is rarely relevant |
-| **Systems** | Zendesk, Intercom, Kustomer, Freshdesk, HubSpot Service Hub, Salesforce Service Cloud, Gladly | Same, with more Salesforce, Gladly, and Kustomer. Native AI (Fin, Zendesk AI, Agentforce) is more likely to be licensed and underused, which is our strongest hook |
+| **Systems** | Zendesk, Intercom, Kustomer, Freshdesk, HubSpot Service Hub, Salesforce Service Cloud, Gladly (Gorgias for e-commerce) | Same, with more Salesforce, Gladly, and Kustomer. Native AI (Fin, Zendesk AI, Agentforce) is more likely to be licensed and underused, which is our strongest hook |
 | **Stage** | Series B+ or profitable, funded in the last 18 months, or under margin pressure | Same. Add "post-layoff / efficiency mandate", a common US trigger for AI-plus-nearshore conversations |
 | **Trigger** | At least one buying signal is required to enter a sequence | Same |
 
-**Why US buyers will listen:** we pitch "AI readiness plus a nearshore human layer in your time zone,"
+**E-commerce qualifier (both tracks).** E-commerce is Tier A only for larger operators:
+≥ 20,000 contacts a month (both tracks), or WhatsApp-heavy support in LATAM. That means multi-brand
+retailers, D2C brands at scale, online grocery and delivery, and e-commerce marketplaces. Small and
+highly seasonal brands stay out. That's where the old fashion/cosmetics list failed. The angle is the
+easiest automation story there is: order status ("where is my order?"), returns and exchanges,
+delivery issues, and refunds within policy. These are mostly binary, high-volume, low-risk contacts
+(mode A/B in the [Automation Suitability Matrix](frameworks/automation-suitability-matrix.md)), plus
+24/7 human coverage for peak season (Buen Fin, Hot Sale, Black Friday, Cyber Monday, holidays).
+We don't have a retail case study yet, so the first e-commerce Readiness Check should become one.
+
+**Why US buyers will listen:** we pitch "AI readiness plus a nearshore human layer covering your hours, 24/7,"
 not "cheap offshore seats." Tiers 0–2 (Readiness Check, Blueprint, Build) are delivered remotely and
 don't depend on agent language at all, so they're the natural entry point for US accounts. Tier 3 adds
 English-speaking agents from Mexico City at nearshore rates, at a premium over Spanish (see
@@ -41,10 +51,10 @@ Turn it into an anonymized case study first, because it's the most relevant refe
 
 ### Tier B ICP (opportunistic)
 
-- E-commerce and retail with high WISMO ("where is my order") volume, only if they're WhatsApp-heavy
-  (LATAM) or above about 20k contacts a month (US). **Drop the current US fashion/cosmetics list.** The
-  problem with it was the industry, not the country: those brands are small, seasonal, and we have no
-  retail proof yet.
+- Smaller e-commerce and physical retail below the Tier A e-commerce qualifier (< 20k contacts a
+  month). **Drop the current US fashion/cosmetics list:** most of those brands are too small and too
+  seasonal for this offer. Re-screen it against the Tier A e-commerce qualifier and keep only the
+  accounts that pass.
 - Traditional companies (banks, insurers, utilities) that are "digitally transforming". Long cycles,
   so pursue them only through referral.
 
@@ -122,20 +132,23 @@ content only).
 - Locations: Mexico, Colombia, Chile, Peru, Argentina
 - Employees: 100–2,000
 - Industries/keywords: financial services, fintech, BNPL, lending, payments, insurance, hospital &
-  health care, health tech, telecommunications, internet, consumer services, marketplace
+  health care, health tech, telecommunications, internet, consumer services, marketplace, e-commerce,
+  online retail, retail (filter by the e-commerce qualifier)
 - Technologies (any): Zendesk, Intercom, Kustomer, Freshdesk, HubSpot Service Hub, Salesforce Service
-  Cloud, Gladly, Zoho Desk, Twilio, WhatsApp Business API (treat as a signal)
+  Cloud, Gladly, Gorgias, Zoho Desk, Twilio, WhatsApp Business API (treat as a signal). E-commerce
+  platforms as a signal: VTEX, Shopify Plus, Salesforce Commerce Cloud, Adobe Commerce/Magento
 - Job postings: contains "atención a clientes" OR "customer support" OR "customer experience" OR "CX"
 - Exclude industries: media, publishing, staffing & recruiting, research
 
 **Account search (Track A-US):**
-- Locations: United States, starting with TX, FL, IL, GA, NY, NC, AZ, CO (Central/Eastern time zones), then CA and WA
+- Locations: United States, all states. Start with NY, CA, TX, FL, IL, GA, which have the most fintech and insurtech companies
 - Employees: 100–1,500
 - Industries/keywords: financial services, fintech, lending, payments, insurance, insurtech,
   consumer services, subscription, membership, marketplace, internet, computer software (B2C SaaS),
-  telecommunications. Add hospital & health care only once HIPAA/BAA is confirmed
+  telecommunications, e-commerce, online retail (filter by the e-commerce qualifier). Add hospital & health care only once HIPAA/BAA is confirmed
 - Technologies (any): Zendesk, Intercom, Kustomer, Gladly, Salesforce Service Cloud, Freshdesk,
-  HubSpot Service Hub, Five9, Talkdesk, Genesys, Aircall (voice-heavy signal), Twilio
+  HubSpot Service Hub, Gorgias, Five9, Talkdesk, Genesys, Aircall (voice-heavy signal), Twilio,
+  plus Shopify Plus, Salesforce Commerce Cloud, Adobe Commerce/Magento for e-commerce
 - Job postings: contains "customer support" OR "customer service representative" OR "customer
   experience" OR "support specialist" OR "CX operations"
 - Extra US signals: job posts for support roles in high-cost cities, recent layoffs or an "efficiency"
@@ -157,10 +170,10 @@ content only).
 750 contacts, worked in monthly cohorts of 75–100 accounts split 50/50 between the tracks. Shift the
 split toward whichever track converts better after the first two cohorts.
 
-## 6. Existing clients count as ICP zero
+## 6. Existing clients: a parallel track
 
-Before any cold outreach, every current client (Aplazo, Clivi, Cashmind, Casap, iForex, Stori,
-TotalPass) is offered a free AI Readiness Check. They have the data, the trust, and the budget, and
+New-client outreach comes first. In parallel, every current client (Aplazo, Clivi, Cashmind, Casap,
+iForex, Stori, TotalPass) is offered a free AI Readiness Check. They have the data, the trust, and the budget, and
 they're the most likely to buy AI from someone else if we don't offer it. Aplazo already runs an AI
 agent ahead of our humans (see the 2026 QA rubric, which scores whether a prior AI agent already
 greeted the customer). That's a Tier 3 hybrid operation we're already running without packaging or

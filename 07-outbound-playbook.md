@@ -1,18 +1,28 @@
 # 07 — Outbound & Inbound Playbook
 
-## 1. Deliverability: fix before sending anything
+## 1. Deliverability: protect it before scaling volume
 
-Zero replies (not even out-of-office replies or unsubscribes) suggests the emails may not be reaching
-inboxes. Run these checks first:
+The current emails **are being delivered**: we get out-of-office auto-replies, and mail servers generally
+don't send those for messages they filtered as spam. So the zero replies come from the message, the
+targeting, and the ask (see [01 §1](01-positioning.md#1-why-the-current-outbound-motion-got-zero-replies)),
+not from spam filtering. The new plan sends far more email (about 250 new contacts a month across two languages),
+so keep inbox placement healthy as volume grows:
 
-- [ ] **Test placement now:** send the old email to 10 seed inboxes (Gmail, Outlook, Google Workspace,
-      M365) using a tool like GlockApps or Mail-Tester. If more than 30% land in spam, fixing that is step one.
-- [ ] **Don't cold-send from `evolvecx.io`.** Buy 2–3 secondary domains (e.g., `evolvecx-ai.com`,
-      `getevolvecx.com`, `evolvecxhq.com`) that redirect to evolvecx.io. Use 2 inboxes per domain
-      (e.g., `beto@`, `alberto@`).
-- [ ] SPF, DKIM, and DMARC (`p=none` to start) on every sending domain. Custom tracking domain in Apollo.
-- [ ] **Warm up** each inbox for 3–4 weeks (Apollo warm-up or a dedicated tool) before sequencing.
-- [ ] **Limits:** ≤ 40 cold emails/day per inbox. Plain text. **No links or images in the first touch.**
+- [ ] **Use the out-of-office replies.** They often name a colleague or a return date. Log both in
+      HubSpot. A named colleague is a warm referral, and the return date is when to follow up.
+- [ ] **Keep sending from `evolvecx.io`. No new domains needed.** 250 new contacts a month × 4
+      emails is about 1,000 emails a month, or roughly 50 per business day. Two inboxes on
+      evolvecx.io (Beto's current one plus one more, e.g. `alberto@`) at ≤ 30 cold emails/day each
+      cover that. If you add a second inbox, warm it up for 2–3 weeks before it sends cold email.
+- [ ] **Confirm SPF, DKIM, and DMARC** on evolvecx.io (start DMARC at `p=none`), and set up a custom
+      tracking domain in Apollo.
+- [ ] **Watch the main domain's reputation**, because client and operations email depends on it too.
+      Set up Google Postmaster Tools for evolvecx.io and check it weekly. Keep the spam-complaint rate
+      under 0.1% and bounces under 2%.
+- [ ] **Only buy a separate sending domain if those signals slip:** reputation drops below "High" in
+      Postmaster Tools, complaints approach 0.3%, or out-of-office replies stop coming in. That would
+      keep cold email from hurting day-to-day email with clients.
+- [ ] **Limits:** ≤ 30 cold emails/day per inbox on the main domain. Plain text. **No links or images in the first touch.**
       Turn off open tracking for first touches (it adds a tracking pixel).
 - [ ] Verify every email (Apollo "verified" only, plus a secondary verification on catch-all domains).
 - [ ] **Send times:** Tue–Thu, 8:00–10:30 local time for the recipient. The Aug 13 batch went out at
@@ -26,13 +36,11 @@ inboxes. Run these checks first:
 | 1 | Email E1 | SDR agent → Beto approves | Hook finding + free offer, yes/no ask |
 | 2 | LinkedIn | Beto | Connection request (no pitch) |
 | 4 | Email E2 | SDR agent | The reframe: knowledge, not models |
-| 7 | Call | Beto / sales hire | 30-second voicemail referencing the finding (only if a direct number is available) |
 | 9 | Email E3 | SDR agent | Not everything should be automated, plus the scorecard link |
 | 10 | LinkedIn | Beto | Short note with a finding or post (if connected) |
 | 16 | Email E4 | SDR agent | Break-up / "want the findings anyway?" |
 
-**Track A-US (English):** same cadence in English, with two changes. Replace any WhatsApp step with a
-phone call or voicemail, and lead the proof with the US fintech account (PP10) plus "same time zone as Central Time."
+**Track A-US (English):** same cadence in English (email and LinkedIn only, no calls). Lead the proof with the US fintech account (PP10) plus "24/7 coverage in any US time zone." Overnight and weekend coverage is a strong hook for US teams that only staff business hours
 
 Standard accounts (fit 50–69) get emails E1–E4 only. The P2 champion at the same account gets a
 parallel sequence that starts 3 days later, with the champion angle.
@@ -151,7 +159,7 @@ parallel sequence that starts 3 days later, with the champion angle.
 - **Follow-up (ES):** "Gracias por conectar. Te escribí por correo sobre el centro de ayuda de
   {empresa}. Si te sirve, te mando el diagnóstico por aquí."
 
-## 4. Existing client expansion play (start here, week 1)
+## 4. Existing client expansion play (parallel track, from week 2)
 
 **To:** the decision-maker at each current client. **From:** Beto, personally (not the agent).
 > "We've been running your support for {X months}. Before you get pitched AI by five vendors, I want
