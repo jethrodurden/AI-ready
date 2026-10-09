@@ -159,7 +159,7 @@ parallel sequence that starts 3 days later, with the champion angle.
 - **Follow-up (ES):** "Gracias por conectar. Te escribí por correo sobre el centro de ayuda de
   {empresa}. Si te sirve, te mando el diagnóstico por aquí."
 
-## 4. Existing client expansion play (start here, week 1)
+## 4. Existing client expansion play (parallel track, from week 2)
 
 **To:** the decision-maker at each current client. **From:** Beto, personally (not the agent).
 > "We've been running your support for {X months}. Before you get pitched AI by five vendors, I want

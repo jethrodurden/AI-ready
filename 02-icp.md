@@ -170,10 +170,10 @@ content only).
 750 contacts, worked in monthly cohorts of 75–100 accounts split 50/50 between the tracks. Shift the
 split toward whichever track converts better after the first two cohorts.
 
-## 6. Existing clients count as ICP zero
+## 6. Existing clients: a parallel track
 
-Before any cold outreach, every current client (Aplazo, Clivi, Cashmind, Casap, iForex, Stori,
-TotalPass) is offered a free AI Readiness Check. They have the data, the trust, and the budget, and
+New-client outreach comes first. In parallel, every current client (Aplazo, Clivi, Cashmind, Casap,
+iForex, Stori, TotalPass) is offered a free AI Readiness Check. They have the data, the trust, and the budget, and
 they're the most likely to buy AI from someone else if we don't offer it. Aplazo already runs an AI
 agent ahead of our humans (see the 2026 QA rubric, which scores whether a prior AI agent already
 greeted the customer). That's a Tier 3 hybrid operation we're already running without packaging or

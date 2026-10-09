@@ -60,6 +60,8 @@ that run the top of our own funnel. **We use the same AI we sell.**
    first touch around what it found. An AI qualification agent runs the Readiness Check intake on
    web and WhatsApp. Humans (Beto) take every call from the readout onward. HubSpot is the system of
    record and Apollo is the data and sending layer.
-6. **Start with current clients.** Aplazo, Clivi, Cashmind, Casap, iForex, Stori, and TotalPass each get
-   a free Readiness Check in the first 30 days. That's the fastest path to case studies and revenue,
-   and it keeps those accounts from buying AI from someone else.
+6. **New clients first, current clients in parallel.** Cohort 1 (50 new accounts, US and LATAM) is
+   researched and sent in week 2 from the current inbox, without waiting for the agents. In parallel,
+   Aplazo, Clivi, Cashmind, Casap, iForex, Stori, and TotalPass each get
+   a free Readiness Check offer. That gives us early case studies and keeps those accounts from
+   buying AI from someone else.
